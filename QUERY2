@@ -18,3 +18,7 @@ insert into student values(1024,1,'Ram','2002-03-05',3.28,'BCT','KTM'),
 SELECT * FROM student;
 
 update student set gpa=2.98 where Name_='Vikram';
+
+delete from student where gpa=3.00;
+
+SELECT * FROM student;
