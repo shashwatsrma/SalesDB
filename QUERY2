@@ -25,3 +25,5 @@ SELECT * FROM student;
 
 truncate table student;
 
+
+drop table student;
