@@ -1,2 +1,10 @@
 --create database shashwatsharma_BCT079;
 --use shashwatsharma_BCT079;
+
+create table student(student_id int,
+roll_no int, 
+Name_ varchar(30), 
+dob date, 
+gpa float, 
+program varchar(30),
+Std_address varchar(30));
