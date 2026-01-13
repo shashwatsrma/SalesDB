@@ -14,3 +14,7 @@ insert into student values(1024,1,'Ram','2002-03-05',3.28,'BCT','KTM'),
 (1026,3,'Krish','2002-04-02',3.56,'BCT','BKT'),
 (1027,4,'Hari','2002-09-15',3.88,'BCT','KTM'),
 (1028,5,'Vikram','2002-06-25',2.28,'BCT','KTM');
+
+SELECT * FROM student;
+
+update student set gpa=2.98 where Name_='Vikram';
