@@ -59,4 +59,9 @@ alter table orders add constraint chk_quantity check (quantity>0);
 alter table products add constraint chk_price check(price>0);
 
 
-alter table Orders_Product add foreign key(OrdID) references orders (order_iD);
+alter table Orders_Product add foreign key(OrdID) references orders (order_id);
+
+
+alter table Orders_Product add constraint fk_PROD
+foreign key(ProdID) references products (ProductID);
+
