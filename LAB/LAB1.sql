@@ -1,0 +1,2 @@
+CREATE DATABASE sec_bct_2079;
+USE sec_bct_2079;
