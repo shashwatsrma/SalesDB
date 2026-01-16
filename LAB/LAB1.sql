@@ -46,3 +46,8 @@ select * from Orders_Product
 alter table customer add email varchar(50) unique;
 
 select *from customer;
+
+
+alter table products alter column ProductID int not null;
+alter table products add primary key(ProductID);
+
