@@ -41,3 +41,8 @@ create table Orders_Product(OPID int Primary Key, OrdID int , ProdID int);
 
 
 select * from Orders_Product
+
+
+alter table customer add email varchar(50) unique;
+
+select *from customer;
