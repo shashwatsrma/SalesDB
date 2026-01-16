@@ -51,3 +51,4 @@ select *from customer;
 alter table products alter column ProductID int not null;
 alter table products add primary key(ProductID);
 
+alter table products alter column Name varchar(50) not null;
