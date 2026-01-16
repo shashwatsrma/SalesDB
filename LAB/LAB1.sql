@@ -65,3 +65,6 @@ alter table Orders_Product add foreign key(OrdID) references orders (order_id);
 alter table Orders_Product add constraint fk_PROD
 foreign key(ProdID) references products (ProductID);
 
+alter table customer add DOB date;
+
+select * from customer
