@@ -27,3 +27,17 @@ foreign key(CustID) references customer (customer_id)
 select * from orders
 
 --drop table orders;
+
+
+create table products(ProductID int ,
+Name varchar(30), Description varchar(30), Price float
+);
+
+
+select * from products
+
+
+create table Orders_Product(OPID int Primary Key, OrdID int , ProdID int);
+
+
+select * from Orders_Product
