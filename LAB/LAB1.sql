@@ -55,3 +55,5 @@ alter table products alter column Name varchar(50) not null;
 
 
 alter table orders add constraint chk_quantity check (quantity>0);
+
+alter table products add constraint chk_price check(price>0);
