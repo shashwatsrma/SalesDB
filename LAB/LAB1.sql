@@ -11,3 +11,19 @@ city varchar(30),
 country varchar(30) default 'NEPAL');
 
 select * from customer
+
+
+--drop table customer;
+
+create table orders(
+order_id int primary key,
+quantity int,
+order_status varchar(30),
+total_amount decimal(10,2) check (total_amount>0),
+OrderDate date,
+CustID int,
+foreign key(CustID) references customer (customer_id)
+);
+select * from orders
+
+--drop table orders;
