@@ -68,3 +68,6 @@ foreign key(ProdID) references products (ProductID);
 alter table customer add DOB date;
 
 select * from customer
+
+
+alter table customer drop column DOB;
